@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Noto+Sans:wght@400;500&display=swap');
+
+.moviesHome {
+    max-width: 800px;
+    margin: 14px auto;
+}
+
+.moviesHome article {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+article h4 {
+    font-family: Noto Sans;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 21px;
+    color: #FFFFFF;
+    padding-bottom: 20px;
+}
+
+.moviesHome img {
+    display: block;
+    width: 900px;
+    max-width: 100%;
+    max-height: 450px;
+    object-fit: cover;
+}
+
+.homeButtons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.movieLink {
+    display: block;
+    background-color: #E50914;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    padding: 10px 40px;
+}
+
+.movieLink:hover{
+    background-color: #93050C;
+    transition: 0.20s;
+}
+
+.loading {
+    font-family: Noto Sans;
+    font-weight: 500;
+    letter-spacing: 1.5px;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 60px);
+}
